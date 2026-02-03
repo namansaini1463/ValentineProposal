@@ -8,7 +8,6 @@ interface SuccessScreenProps {
 
 export default function SuccessScreen({ userName }: SuccessScreenProps) {
   const [showGift, setShowGift] = useState(true)
-  const [showMessage, setShowMessage] = useState(false)
 
   useEffect(() => {
     // Initial confetti when reaching success screen
@@ -53,7 +52,6 @@ export default function SuccessScreen({ userName }: SuccessScreenProps) {
 
   const handleGiftOpen = () => {
     setShowGift(false)
-    setShowMessage(true)
   }
 
   return (

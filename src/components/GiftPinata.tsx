@@ -12,7 +12,6 @@ export default function GiftPinata({ onOpen }: GiftPinataProps) {
   const [burstEmojis, setBurstEmojis] = useState<{ id: number; emoji: string; x: number; y: number; rotation: number }[]>([])
   
   const maxClicks = 5
-  const intensity = clicks / maxClicks
 
   const valentineEmojis = ['❤️', '💕', '💖', '💝', '💗', '💓', '💞', '💘', '🌹', '💐', '🍫', '🎁', '💌', '😍', '🥰', '💑', '💏', '💋']
 
