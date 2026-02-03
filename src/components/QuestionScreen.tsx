@@ -39,12 +39,12 @@ export default function QuestionScreen({ userName, onYes }: QuestionScreenProps)
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
-      <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 w-full max-w-2xl">
+      <div className="bg-white dark:bg-gray-800 rounded-3xl shadow-2xl p-8 md:p-12 w-full max-w-2xl transition-colors duration-300">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-pink-600 mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-pink-600 dark:text-pink-400 mb-4">
             💝 Hey {userName}! 💝
           </h1>
-          <p className="text-2xl md:text-3xl font-semibold text-gray-800">
+          <p className="text-2xl md:text-3xl font-semibold text-gray-800 dark:text-white">
             Will you be my Valentine?
           </p>
         </div>
@@ -81,7 +81,7 @@ export default function QuestionScreen({ userName, onYes }: QuestionScreenProps)
           </button>
         </div>
 
-        <div className="text-center mt-8 text-gray-500 text-sm">
+        <div className="text-center mt-8 text-gray-500 dark:text-gray-400 text-sm">
           <p>Hint: Try clicking "No" if you dare... 😏</p>
         </div>
       </div>

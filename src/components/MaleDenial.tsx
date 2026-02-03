@@ -1,12 +1,12 @@
 export default function MaleDenial() {
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
-      <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 w-full max-w-md text-center">
+      <div className="bg-white dark:bg-gray-800 rounded-3xl shadow-2xl p-8 md:p-12 w-full max-w-md text-center transition-colors duration-300">
         <div className="text-6xl md:text-8xl mb-6 animate-bounce">😅</div>
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-          Oopsie! You're GAY!!
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">
+          Ewww! You're GAY!!
         </h1>
-        <p className="text-xl md:text-2xl text-gray-600 mb-4">
+        <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-4">
           Sorry, but I'm not looking to date guys! 💁‍♀️
         </p>
         <div className="mt-8">
